@@ -1,9 +1,3 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,15 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="keywords" content="Client Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
-	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
 
 	<!-- css files -->
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
@@ -177,7 +163,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 				</div>
-				<div class=" col-md-3" style="border: ;">
+				<div class=" col-md-3" style="border: 1;">
 					<div class="panel panel-default" style="width: 17rem;height: 25rem;">
 						<div class="panel-thumbnail">
 							<img src="images/s2.png" alt="" class="img-fluid" />
@@ -492,7 +478,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="contact-form">
 				<div class="row">
 					<div class="col-lg-8">
-						<form name="contactform" id="contactform" method="post" action="#"
+						<form name="contactform" id="contactform" method="POST" action="index.php"
 							onsubmit="return(validate());" novalidate="novalidate">
 							<div class="row">
 								<div class="form-group col-md-6 ">
@@ -513,14 +499,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="form-group col-md-6">
 									<label>Subject</label>
 									<input type="text" class="form-control" id="subject" placeholder="Enter Subject"
-										name="phone">
+										name="subject">
 								</div>
 								<div class="form-group col-12">
 									<label>Message</label>
-									<textarea name="issues" class="form-control" id="iq"
+									<textarea name="message" class="form-control" id="message"
 										placeholder="Enter Your Message Here"></textarea>
 								</div>
-								<button type="submit" class="btn btn-default">Submit </button>
+								<button type="submit" onclick="myFUnction()" class="btn btn-default">Submit </button>
 							</div>
 						</form>
 					</div>
@@ -547,7 +533,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-lg-7 my-lg-0 my-4">
 					<p><span class="fa mr-2 fa-map-marker"></span>pongalady Street, Adoor, Kerala</p>
 					<p class="mt-2"><span class="fa mr-2 fa-envelope"></span><a
-							href="mailto:info@example.com">laijujhnhp5@gmail.com</a>, <span
+							href="mailto:info@example.com">laijujohnhp5@gmail.com</a>, <span
 							class="fa ml-3 mr-2 fa-phone"></span>+91-999-5637-548</p>
 				</div>
 				<div class="col-lg-3 copy-right p-0 text-lg-right">
@@ -590,5 +576,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- move top -->
 
 </body>
+<script>
+	addEventListener("load", function () {
+		setTimeout(hideURLbar, 0);
+	}, false);
 
+	function hideURLbar() {
+		window.scrollTo(0, 1);
+	}
+
+	function myFunction() {
+  alert("Registration Successfully");
+}
+</script>
 </html>
