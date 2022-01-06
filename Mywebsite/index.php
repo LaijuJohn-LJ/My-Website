@@ -9,7 +9,7 @@
 
     if($connection){
 
-       // echo "successfully connected<br><br>";
+        echo "successfully connected<br><br>";
     }else{
         echo "not";
     }
@@ -27,7 +27,7 @@
 
   if(mysqli_query($connection,$sql))
   {
-     //echo " record inserted";
+     echo " record inserted";
   }else{
       echo "no";
   }

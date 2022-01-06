@@ -7480,8 +7480,13 @@ button.bg-dark:focus {
 .m-3 {
   margin: 1rem !important;
 }
+.mt-22{
+  margin-top: 4.8rem;
+}
 
-.mt-3,
+.mt-23{
+  margin-top: 2.6rem;
+}
 .my-3 {
   margin-top: 1rem !important;
 }
@@ -7504,8 +7509,14 @@ button.bg-dark:focus {
 .m-4 {
   margin: 1.5rem !important;
 }
+/*testimonial change*/
 
-.mt-4,
+.mt{
+  margin-top: 6.8rem;
+}
+.mt-4{
+  margin-top: 4.8rem;
+}
 .my-4 {
   margin-top: 1.5rem !important;
 }
